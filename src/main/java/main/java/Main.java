@@ -32,7 +32,7 @@ public class Main {
             System.out.println("DB연결 성공");
 
             // === DB 전체 데이터 조회(READ) === ///
-            String sql = "SELECT * FROM meber";
+            String sql = "SELECT * FROM member";
             stmt = conn.createStatement(); // Statement 사용
             rs = stmt.executeQuery(sql); // SELECT 실행
 
@@ -57,7 +57,7 @@ public class Main {
                     rs.close();
                     System.out.println("DB 연결 종료 ");
                 }
-            }catch (Execption e){
+            }catch (Exception e){
                 e.printStackTrace();
             }
         }
