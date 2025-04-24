@@ -5,7 +5,7 @@ package main.java.이론;
 * : JAVA(Spring Boot)에서 DB와 연동하기 위한 방법
 *
 * 1) JDBC (JDBC API 기반)
-*    : JAVA에서 DB에 접근할 수 있도록 표즌으로 제공하는 API]
+*    : JAVA에서 DB에 접근할 수 있도록 표즌으로 제공하는 API
 *   - SQL문을 문자열로 작성
 *       >> Connection, PreparedStatement, ResultSet 등의객체를 통해 직접 DB와 통식
 *
